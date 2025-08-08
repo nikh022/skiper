@@ -1,7 +1,29 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "pbs.twimg.com",
+        port: "",
+        pathname: "/**",
+      },
+      // Add this new entry for your own domain
+      {
+        protocol: "https",
+        hostname: "skiper-ui.com",
+        port: "",
+        pathname: "/**",
+      },
+      // You should also add i.giphy.com if you're loading it directly
+      {
+        protocol: "https",
+        hostname: "i.giphy.com",
+        port: "",
+        pathname: "/**",
+      },
+    ],
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
