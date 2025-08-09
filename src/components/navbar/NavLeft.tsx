@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../../public/svgCode/logo";
+import Logo from "../../../public/svgCode/Logo";
 
 const NavLeft = () => {
   return (
