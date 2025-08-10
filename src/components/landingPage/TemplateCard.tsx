@@ -32,7 +32,7 @@ const TemplateCard = () => {
     <div>
       <div className="w-[71%] p-2 mx-auto rounded-3xl border border-black/5 shadow-sm my-20">
         <div className="mx-auto p-2 rounded-3xl border border-black/5 shadow-sm bg-[#f4f4f4]">
-          <BadgeButton />
+          <BadgeButton>Templates</BadgeButton>
           <div className="flex justify-between items-center text-white">
             {cards.map((card, index) => (
               <MinimalCard className="m-2 w-[460px]" key={index}>
