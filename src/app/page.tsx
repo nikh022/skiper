@@ -1,3 +1,4 @@
+import AiInputCard from "@/components/landingPage/AiInputCard";
 import CardCarousel from "@/components/landingPage/CardCarouselParent";
 import HeroContent from "@/components/landingPage/HeroContent";
 import SpecialCard from "@/components/landingPage/SpecialCard";
@@ -13,6 +14,7 @@ const page = () => {
       <CardCarousel />
       <TemplateCard />
       <SpecialCard />
+      <AiInputCard />
     </div>
   );
 };
