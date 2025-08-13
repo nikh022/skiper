@@ -1,6 +1,7 @@
 import AiInputCard from "@/components/landingPage/AiInputCard";
 import CardCarousel from "@/components/landingPage/CardCarouselParent";
 import HeroContent from "@/components/landingPage/HeroContent";
+import RandomNumber from "@/components/landingPage/RandomNumber";
 import SpecialCard from "@/components/landingPage/SpecialCard";
 import TemplateCard from "@/components/landingPage/TemplateCard";
 import Navbar from "@/components/navbar/Navbar";
@@ -15,6 +16,7 @@ const page = () => {
       <TemplateCard />
       <SpecialCard />
       <AiInputCard />
+      <RandomNumber />
     </div>
   );
 };
